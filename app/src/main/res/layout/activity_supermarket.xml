@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/market">
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/a101"
+        android:background="@drawable/a101"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/altun"
+        android:background="@drawable/altun"
+        android:layout_toRightOf="@+id/a101"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/bim"
+        android:background="@drawable/bim"
+        android:layout_below="@+id/a101"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/migros"
+        android:background="@drawable/migros"
+        android:layout_below="@+id/altun"
+        android:layout_toRightOf="@+id/bim"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/carrefour"
+        android:background="@drawable/carrefour"
+        android:layout_below="@+id/bim"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+
+
+</RelativeLayout>

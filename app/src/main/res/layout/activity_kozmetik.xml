@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xy">
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/farmasi"
+        android:background="@drawable/farmasi"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/oriflame"
+        android:background="@drawable/oriflame"
+        android:layout_toRightOf="@+id/farmasi"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/rossmann"
+        android:background="@drawable/rossmann"
+        android:layout_below="@+id/farmasi"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/avon"
+        android:background="@drawable/avon1"
+        android:layout_below="@+id/oriflame"
+        android:layout_toRightOf="@+id/rossmann"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/eve"
+        android:background="@drawable/eve"
+        android:layout_below="@+id/rossmann"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp" />
+
+
+
+</RelativeLayout>
